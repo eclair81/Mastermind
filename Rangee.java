@@ -10,8 +10,8 @@ public class Rangee {
 	
 	
 	public void ajoutJeton(Jeton j) {
-		indiceJeton++;
 		tab[indiceJeton] = j;
+		indiceJeton++;
 		if(indiceJeton == Modele.DIFFICULTE) {
 			rangeeComplete();
 		}
