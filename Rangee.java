@@ -5,6 +5,23 @@ public class Rangee {
 	
 	public Rangee() {
 		this.tab = new Jeton[Modele.DIFFICULTE];
+		
 	}
+	
+	
+	public void ajoutJeton(Jeton j) {
+		indiceJeton++;
+		tab[indiceJeton] = j;
+		if(indiceJeton == Modele.DIFFICULTE) {
+			rangeeComplete();
+		}
+	}
+
+
+	private void rangeeComplete() {
+		// \_o_/
+	}
+	
+	
 	
 }
